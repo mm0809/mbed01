@@ -7,8 +7,8 @@ void Led(DigitalOut &ledpin,int t);
 
 int main()
 {
-   myLED = 1;
-   myLED2 = 1;
+   myLED = 0;
+   myLED2 = 0;
    while (true)
    {
       Led(myLED, 3);
